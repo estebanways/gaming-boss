@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: blanchedalmond;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 69%, rgb(0, 212, 255) 100%);
+}
+
+.banner {
+  width: 100%;
+  padding: 9rem;
+  text-align: center;
+  background: url("./images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 60px;
+  background-color: steelblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  box-sizing: border-box;
+  align-items: center;
+}
+.navigation ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+}
+.menu > li {
+  position: relative;
+  list-style: none;
+}
+.menu > li > a {
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: white;
+}
+.menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 58px;
+  padding-top: 10px;
+}
+
+.submenu {
+  position: absolute;
+  background: steelblue;
+  visibility: hidden;
+}
+.submenu li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: flex-start;
+}
+
+article {
+  width: auto;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
